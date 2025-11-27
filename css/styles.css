@@ -1,0 +1,156 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #051b05;
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+.page-wrapper{
+    padding: 20px;
+    background-color: #1F2937;
+}
+ul{
+    margin-block:10px ;
+      list-style-position: inside;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    
+}
+.primary-navigation ul{
+     display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.primary-navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible{
+    color: #8f418f;
+}
+.button1{
+    background-color: rgb(33, 33, 219) ;
+    border-radius: 10px;
+    border:  rgb(33, 33, 219) ;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.container  img{
+    width: 350px;
+    height: auto;
+    margin-right: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 60px;
+    margin-block-end:60px ;
+    padding: 30px;
+}
+section {
+    margin-block: 70px;
+}
+.wrapper{
+   max-inline-size:1000px ;
+   margin-inline: auto;
+   
+}
+header{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between ;
+}
+.wrapp{
+    max-inline-size:1200px ;
+    margin-inline: auto;
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.fourcolumns img{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    border: #295dec solid;
+    justify-items: center;
+    justify-content: center;
+
+}
+.fourcolumns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+.par{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.tealbg{
+    background-color: rgb(214, 207, 207);
+    padding: 80px 120px;
+    
+}
+.teap{
+    background-color: #081538;
+    padding: 15px;
+    color: #ffff;
+    text-align: center;
+    
+}
+.action{
+     display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    color: white;
+    background-color: rgb(75, 75, 236);
+    padding: 20px;
+    margin: 60px;
+    border-radius: 10px;
+    line-height: 0;
+}
+.button2{
+    background-color:  rgb(75, 75, 236) ;
+    border-radius: 10px;
+    border: white solid ;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+footer{
+    text-align: center;
+}
